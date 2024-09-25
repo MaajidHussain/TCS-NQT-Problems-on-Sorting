@@ -4,7 +4,7 @@ def Selection_Sort(List):
         for j in range(i+1,len(List)):
             if List[j]<List[MinPosition]:
                 MinPosition=j
-                List[i],List[MinPosition] = List[MinPosition],List[i]
+        List[i],List[MinPosition] = List[MinPosition],List[i]
                 print(List)
     print("Final Result:-")
     return List
